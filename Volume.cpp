@@ -24,4 +24,5 @@ int main()
        cout<<"Volume decreased by "<<vol-dec<<endl;
    }
    }
+   return 0;
 }
