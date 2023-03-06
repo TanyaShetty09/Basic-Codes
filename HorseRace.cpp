@@ -3,7 +3,7 @@
 using namespace std;
 int main() 
 {
-    int T,n,s[20],b[20],temp,max=0,k=0;
+    int T,n,s[20],b[20],temp,k=0;
     cout<<"Enter the no.of test cases"<<endl;
     cin>>T;
     while(T--)
@@ -11,10 +11,7 @@ int main()
         cout<<"Enter the no.of horses and their skills"<<endl;
         cin>>n;
         for(int i=0;i<n;i++)
-        {
             cin>>s[i];
-            max=max+i;
-        }
         for(int i=0;i<n;i++)
         {
             for(int j=i+1;j<n;j++)
